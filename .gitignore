@@ -3,11 +3,17 @@
 *.egg
 *.egg-info
 *.mo
+*~
 *.pyc
 *.pyo
 *.tmp*
 .bzr
 .hg
+*.mo
+*.kpf
+*.swp
+*.wpr
+.*.cfg
 .installed.cfg
 .mr.developer.cfg
 .project
@@ -24,3 +30,8 @@ fake-eggs
 parts
 src/
 var/
+
+
+
+# OSX
+.DS_Store
